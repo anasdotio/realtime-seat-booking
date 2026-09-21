@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Basic Node.js server with Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.7.5"
+  }
+}
